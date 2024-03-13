@@ -1,0 +1,153 @@
+.main-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-container {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .second-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+.adding-appointments-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .inputs-container {
+    width: 45%;
+  }
+}
+
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.each-input-cont {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+
+.input-style {
+  width: 70%;
+  height: 30px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 10px;
+}
+
+.add-btn {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #8b5cf6;
+  border-radius: 7px;
+  padding: 7px;
+  outline: none;
+  cursor: pointer;
+  border: 0px solid transparent;
+  margin-top: 20px;
+  height: 40px;
+  width: 75px;
+}
+
+.image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    display: block;
+    width: 45%;
+    height: 30%;
+  }
+}
+
+.line {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+}
+
+.aptmnt-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starred-btn {
+  height: 35px;
+  width: 80px;
+  border-radius: 14px;
+
+  font-weight: bold;
+
+  padding: 7px;
+  margin-top: 17px;
+}
+
+.filter-empty {
+  background-color: #ffffff;
+  color: #9897f0;
+  border: 2px solid #9897f0;
+}
+
+.filter-filled {
+  background-color: #9897f0;
+  color: #ffffff;
+  border: 0px solid transparent;
+}
+
+.aptmnt-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .aptmnt-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+}
